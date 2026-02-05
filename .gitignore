@@ -1,4 +1,59 @@
+# Python artifacts
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+.envrc
+.direnv/
+*.local
+*.local.*
+
+# Credentials and key material
+*.pem
+*.p12
+*.pfx
+*.key
+*.crt
+*.csr
+*.der
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+secrets/
+credentials/
+
+# Local/private input datasets
+data/input/*.local.json
+data/input/*private*.json
+data/input/private/
+
+# Generated output
 data/output/*
 !data/output/.gitkeep
+
+# Misc runtime files
+logs/
+*.log
+tmp/

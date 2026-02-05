@@ -9,6 +9,8 @@ Created_by:
 
 # Data Contracts
 
+Use `*.local.json` filenames for real user data (for example, `targets.local.json` and `content.local.json`). The repo ignores these files by default.
+
 ## `targets.json`
 
 ```json

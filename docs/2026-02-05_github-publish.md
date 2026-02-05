@@ -51,9 +51,11 @@ Share this direct URL once pushed:
 
 ```bash
 cd /Users/tomago/andrew-tomago/public/custom-moe
+cp data/input/targets.json data/input/targets.local.json
+cp data/input/content.json data/input/content.local.json
 python3 scripts/mvp_committee.py run \
-  --targets data/input/targets.json \
-  --content data/input/content.json \
+  --targets data/input/targets.local.json \
+  --content data/input/content.local.json \
   --committee config/committee.json \
   --outdir data/output
 cat data/output/summary.md

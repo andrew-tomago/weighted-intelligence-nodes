@@ -20,7 +20,7 @@ Created_by:
 
 ## Fast Iteration Loop
 
-1. Edit `data/input/content.json` with 2-5 variants.
+1. Edit `data/input/content.local.json` with 2-5 variants.
 2. Run full pipeline.
 3. Use `summary.md` to pick top candidate.
 4. Apply edits and re-run until score and consensus improve.

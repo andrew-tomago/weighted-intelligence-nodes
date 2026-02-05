@@ -26,8 +26,8 @@ MVP scaffold for an audience "committee" pipeline inspired by mixture-of-experts
 | --- | --- |
 | `/Users/tomago/andrew-tomago/public/custom-moe/scripts/mvp_committee.py` | CLI pipeline (`profile`, `evaluate`, `synthesize`, `run`) |
 | `/Users/tomago/andrew-tomago/public/custom-moe/config/committee.json` | Committee persona + rubric config |
-| `/Users/tomago/andrew-tomago/public/custom-moe/data/input/targets.json` | Sample public target profiles |
-| `/Users/tomago/andrew-tomago/public/custom-moe/data/input/content.json` | Sample content drafts |
+| `/Users/tomago/andrew-tomago/public/custom-moe/data/input/targets.json` | Sample public target profiles (template) |
+| `/Users/tomago/andrew-tomago/public/custom-moe/data/input/content.json` | Sample content drafts (template) |
 | `/Users/tomago/andrew-tomago/public/custom-moe/skills/public/custom-moe-committee` | Codex skill package |
 | `/Users/tomago/andrew-tomago/public/custom-moe/docs/` | MVP spec + publish instructions |
 
@@ -35,9 +35,11 @@ MVP scaffold for an audience "committee" pipeline inspired by mixture-of-experts
 
 ```bash
 cd /Users/tomago/andrew-tomago/public/custom-moe
+cp data/input/targets.json data/input/targets.local.json
+cp data/input/content.json data/input/content.local.json
 python3 scripts/mvp_committee.py run \
-  --targets data/input/targets.json \
-  --content data/input/content.json \
+  --targets data/input/targets.local.json \
+  --content data/input/content.local.json \
   --committee config/committee.json \
   --outdir data/output
 ```
@@ -61,6 +63,7 @@ Use it when you want Codex to run this pipeline, tune committee members, or gene
 - Use only public or user-provided data.
 - Do not infer or store protected/sensitive attributes.
 - Keep outputs focused on content fit, messaging clarity, and evidence quality.
+- Put real audience data in `data/input/*.local.json` only. These files are gitignored.
 
 ## License
 

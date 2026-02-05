@@ -22,9 +22,11 @@ Run full pipeline:
 
 ```bash
 cd /Users/tomago/andrew-tomago/public/custom-moe
+cp data/input/targets.json data/input/targets.local.json
+cp data/input/content.json data/input/content.local.json
 python3 scripts/mvp_committee.py run \
-  --targets data/input/targets.json \
-  --content data/input/content.json \
+  --targets data/input/targets.local.json \
+  --content data/input/content.local.json \
   --committee config/committee.json \
   --outdir data/output
 ```
@@ -33,8 +35,8 @@ Run staged pipeline:
 
 ```bash
 cd /Users/tomago/andrew-tomago/public/custom-moe
-python3 scripts/mvp_committee.py profile --targets data/input/targets.json --out data/output/profiles.json
-python3 scripts/mvp_committee.py evaluate --profiles data/output/profiles.json --content data/input/content.json --committee config/committee.json --out data/output/committee_matrix.json
+python3 scripts/mvp_committee.py profile --targets data/input/targets.local.json --out data/output/profiles.json
+python3 scripts/mvp_committee.py evaluate --profiles data/output/profiles.json --content data/input/content.local.json --committee config/committee.json --out data/output/committee_matrix.json
 python3 scripts/mvp_committee.py synthesize --matrix data/output/committee_matrix.json --out data/output/summary.md
 ```
 
@@ -50,6 +52,7 @@ python3 scripts/mvp_committee.py synthesize --matrix data/output/committee_matri
 - Use only public or user-provided data.
 - Do not infer sensitive attributes.
 - Keep analysis focused on content quality and audience-fit signals.
+- Keep user-specific input in `data/input/*.local.json` (gitignored).
 
 ## References
 
