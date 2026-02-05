@@ -12,8 +12,9 @@ Run only the profiling stage to produce `data/output/profiles.json`.
 ## Workflow
 
 1. Validate target input shape using the `targets.json` contract.
-2. Run profiling from `targets.local.json` (or fallback to `targets.json`).
-3. Confirm profile count and inspect top interests before evaluation.
+2. If required target inputs are missing, please interview the user to acquire the necessary inputs before running commands.
+3. Run profiling from `targets.local.json` (or fallback to `targets.json`).
+4. Confirm profile count and inspect top interests before evaluation.
 
 ## Command
 
@@ -30,4 +31,5 @@ Expected target schema is documented in:
 
 - Use only public or user-provided target signals.
 - Do not infer sensitive attributes.
+- If required inputs are missing, please interview the user to acquire the necessary inputs.
 - Keep personalized data in `*.local.json` files.

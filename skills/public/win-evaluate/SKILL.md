@@ -13,7 +13,8 @@ Run only the committee scoring stage to produce `data/output/committee_matrix.js
 
 1. Ensure `profiles.json` already exists (run profile stage first if needed).
 2. Validate content and committee input contracts.
-3. Run committee evaluation and inspect weighted scores plus consensus spread.
+3. If required content/committee inputs are missing, please interview the user to acquire the necessary inputs before running commands.
+4. Run committee evaluation and inspect weighted scores plus consensus spread.
 
 ## Command
 
@@ -30,4 +31,5 @@ Expected schemas are documented in:
 
 - Keep scoring criteria explicit through `rubric_weights`.
 - Avoid overfitting to one persona by checking expert weights and consensus spread.
+- If required inputs are missing, please interview the user to acquire the necessary inputs.
 - Keep user-specific drafts in `*.local.json` files.

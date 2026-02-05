@@ -19,9 +19,10 @@ For single-stage tasks, prefer focused skills:
 ## Workflow
 
 1. Validate inputs against the contracts in `references/data-contracts.md`.
-2. Run profiling from target public data.
-3. Run committee evaluation across experts and content drafts.
-4. Synthesize output into a balanced summary with consensus signals.
+2. If required inputs are missing, please interview the user to acquire the necessary inputs before running commands.
+3. Run profiling from target public data.
+4. Run committee evaluation across experts and content drafts.
+5. Synthesize output into a balanced summary with consensus signals.
 
 ## Commands
 
@@ -67,6 +68,7 @@ python3 ../../../scripts/mvp_committee.py synthesize \
 
 - Use only public or user-provided data.
 - Never infer private or sensitive attributes.
+- If required inputs are missing, please interview the user to acquire the necessary inputs.
 - Keep analysis focused on content quality and audience-fit signals.
 - Stick to observable public work and stated preferences only.
 - Keep user-specific input in `data/input/*.local.json` (gitignored).
