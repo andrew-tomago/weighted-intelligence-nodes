@@ -41,10 +41,13 @@ These rules override broader workspace defaults when they conflict.
 | Goal | Command |
 | --- | --- |
 | Full pipeline | `python3 scripts/mvp_committee.py run --targets data/input/targets.local.json --content data/input/content.local.json --committee config/committee.json --outdir data/output` |
+| Full pipeline (skill wrapper) | `bash skills/public/weighted-intelligence-nodes-committee/scripts/run_committee.sh` |
 | Staged profile | `python3 scripts/mvp_committee.py profile --targets data/input/targets.local.json --out data/output/profiles.json` |
+| Staged profile (skill wrapper) | `bash skills/public/weighted-intelligence-nodes-profile-targets/scripts/run_profile.sh` |
 | Staged evaluate | `python3 scripts/mvp_committee.py evaluate --profiles data/output/profiles.json --content data/input/content.local.json --committee config/committee.json --out data/output/committee_matrix.json` |
+| Staged evaluate (skill wrapper) | `bash skills/public/weighted-intelligence-nodes-evaluate-content/scripts/run_evaluate.sh` |
 | Staged synthesize | `python3 scripts/mvp_committee.py synthesize --matrix data/output/committee_matrix.json --out data/output/summary.md` |
-| Wrapper script | `skills/public/weighted-intelligence-nodes-committee/scripts/run_committee.sh` |
+| Staged synthesize (skill wrapper) | `bash skills/public/weighted-intelligence-nodes-synthesize-summary/scripts/run_synthesize.sh` |
 
 If local files do not exist, copy templates first:
 

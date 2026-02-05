@@ -58,13 +58,16 @@ cd /Users/tomago/andrew-tomago/public/weighted-intelligence-nodes
 cp examples/targets.laura-modiano.example.json data/input/targets.local.json
 ```
 
-## Codex Skill
+## Codex Skills
 
-The skill package lives at:
+Available skill packages:
 
-- `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-committee`
-
-Use it when you want Codex to run this pipeline, tune committee members, or generate evaluation summaries from new datasets.
+| Skill | Purpose | Wrapper Command |
+| --- | --- | --- |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-committee` | End-to-end pipeline | `bash skills/public/weighted-intelligence-nodes-committee/scripts/run_committee.sh` |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-profile-targets` | Profile stage only | `bash skills/public/weighted-intelligence-nodes-profile-targets/scripts/run_profile.sh` |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-evaluate-content` | Evaluate stage only | `bash skills/public/weighted-intelligence-nodes-evaluate-content/scripts/run_evaluate.sh` |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-synthesize-summary` | Synthesize stage only | `bash skills/public/weighted-intelligence-nodes-synthesize-summary/scripts/run_synthesize.sh` |
 
 ## Safety Guardrails
 
