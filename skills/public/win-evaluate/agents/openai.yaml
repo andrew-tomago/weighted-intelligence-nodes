@@ -1,0 +1,4 @@
+interface:
+  display_name: "WIN Evaluate"
+  short_description: "Score drafts with experts"
+  default_prompt: "Use $win-evaluate to score content variants with committee experts."

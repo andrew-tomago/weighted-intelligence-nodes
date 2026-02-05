@@ -53,6 +53,9 @@ data/input/private/
 data/output/*
 !data/output/.gitkeep
 
+# Agent config (project-local, not pushed)
+CLAUDE.md
+
 # Misc runtime files
 logs/
 *.log

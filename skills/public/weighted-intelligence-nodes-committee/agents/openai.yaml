@@ -1,4 +1,0 @@
-interface:
-  display_name: "Weighted Intelligence Nodes Committee"
-  short_description: "Run persona committees for audience feedback"
-  default_prompt: "Use $weighted-intelligence-nodes-committee to profile targets, evaluate content variants, and synthesize committee consensus."

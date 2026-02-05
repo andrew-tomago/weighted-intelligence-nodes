@@ -1,9 +1,9 @@
 ---
-name: weighted-intelligence-nodes-synthesize-summary
-description: Convert weighted-intelligence-nodes committee results into a ranked markdown summary. Use when users ask to summarize committee_matrix.json, prioritize rewrite backlog from low-score rows, or produce decision-ready committee output for stakeholders.
+name: win-summary
+description: Summarize WIN committee_matrix.json into ranked markdown feedback. Use to surface consensus, disagreements, and top rewrite actions.
 ---
 
-# Weighted Intelligence Nodes Synthesize Summary
+# WIN Summary
 
 ## Overview
 
@@ -24,8 +24,8 @@ scripts/run_synthesize.sh
 ## Input Contract
 
 Output columns and artifacts are documented in:
-- `../weighted-intelligence-nodes-committee/references/data-contracts.md`
-- `../weighted-intelligence-nodes-committee/references/workflow.md`
+- `../win-committee/references/data-contracts.md`
+- `../win-committee/references/workflow.md`
 
 ## Guardrails
 

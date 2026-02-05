@@ -29,7 +29,7 @@ MVP scaffold for an audience "committee" pipeline inspired by mixture-of-experts
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/input/targets.json` | Sample public target profiles (template) |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/input/content.json` | Sample content drafts (template) |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/examples/targets.laura-modiano.example.json` | Evidence-rich profile example (Laura Modiano) |
-| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-committee` | Codex skill package |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/` | Codex skill packages (`win-*`) |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/docs/` | MVP spec + publish instructions |
 
 ## Quick Start
@@ -60,14 +60,14 @@ cp examples/targets.laura-modiano.example.json data/input/targets.local.json
 
 ## Codex Skills
 
-Available skill packages:
+Available skill packages (from `skills/public/*/SKILL.md`):
 
-| Skill | Purpose | Wrapper Command |
-| --- | --- | --- |
-| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-committee` | End-to-end pipeline | `bash skills/public/weighted-intelligence-nodes-committee/scripts/run_committee.sh` |
-| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-profile-targets` | Profile stage only | `bash skills/public/weighted-intelligence-nodes-profile-targets/scripts/run_profile.sh` |
-| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-evaluate-content` | Evaluate stage only | `bash skills/public/weighted-intelligence-nodes-evaluate-content/scripts/run_evaluate.sh` |
-| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-synthesize-summary` | Synthesize stage only | `bash skills/public/weighted-intelligence-nodes-synthesize-summary/scripts/run_synthesize.sh` |
+| Skill ID | Display Name | Scope | Wrapper Command |
+| --- | --- | --- | --- |
+| `win-committee` | WIN Committee | End-to-end (`profile` + `evaluate` + `synthesize`) | `bash skills/public/win-committee/scripts/run_committee.sh` |
+| `win-profile` | WIN Profile | Profile stage (`profiles.json`) | `bash skills/public/win-profile/scripts/run_profile.sh` |
+| `win-evaluate` | WIN Evaluate | Evaluate stage (`committee_matrix.json`) | `bash skills/public/win-evaluate/scripts/run_evaluate.sh` |
+| `win-summary` | WIN Summary | Synthesis stage (`summary.md`) | `bash skills/public/win-summary/scripts/run_synthesize.sh` |
 
 ## Safety Guardrails
 

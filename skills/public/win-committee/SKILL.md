@@ -1,9 +1,9 @@
 ---
-name: weighted-intelligence-nodes-committee
-description: Run a weighted-intelligence-nodes audience committee workflow to profile target personas, evaluate draft content, and synthesize consensus feedback. Use when users ask to test messaging or MVP ideas, compare content variants, tune committee rubrics/weights, or generate rewrite priorities from committee scoring.
+name: win-committee
+description: Run the full WIN committee flow: profile targets, evaluate drafts, and synthesize consensus feedback. Use for end-to-end message testing, variant comparison, and rewrite prioritization.
 ---
 
-# Weighted Intelligence Nodes Committee
+# WIN Committee
 
 ## Overview
 
@@ -12,9 +12,9 @@ Execute the end-to-end committee pipeline for hackathon and MVP messaging valida
 Use this orchestration skill when the user wants full-loop output (`profiles.json`, `committee_matrix.json`, and `summary.md`).
 
 For single-stage tasks, prefer focused skills:
-- `weighted-intelligence-nodes-profile-targets`
-- `weighted-intelligence-nodes-evaluate-content`
-- `weighted-intelligence-nodes-synthesize-summary`
+- `win-profile`
+- `win-evaluate`
+- `win-summary`
 
 ## Workflow
 

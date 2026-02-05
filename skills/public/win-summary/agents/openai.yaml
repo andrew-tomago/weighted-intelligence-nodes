@@ -1,0 +1,4 @@
+interface:
+  display_name: "WIN Summary"
+  short_description: "Summarize committee matrix"
+  default_prompt: "Use $win-summary to convert committee_matrix.json into ranked feedback."

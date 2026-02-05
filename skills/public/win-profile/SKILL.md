@@ -1,9 +1,9 @@
 ---
-name: weighted-intelligence-nodes-profile-targets
-description: Build audience target profiles from public signals in weighted-intelligence-nodes. Use when users ask to profile personas, extract audience interests/style from bios and posts, validate target input structure, or generate profiles.json before committee scoring.
+name: win-profile
+description: Build WIN target profiles from public signals. Use to generate profiles.json, validate target input shape, and extract interests/style before scoring.
 ---
 
-# Weighted Intelligence Nodes Profile Targets
+# WIN Profile
 
 ## Overview
 
@@ -24,7 +24,7 @@ scripts/run_profile.sh
 ## Input Contract
 
 Expected target schema is documented in:
-- `../weighted-intelligence-nodes-committee/references/data-contracts.md`
+- `../win-committee/references/data-contracts.md`
 
 ## Guardrails
 

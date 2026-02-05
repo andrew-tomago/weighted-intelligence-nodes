@@ -25,13 +25,13 @@ These rules override broader workspace defaults when they conflict.
 | `scripts/mvp_committee.py` | Pipeline logic (`profile`, `evaluate`, `synthesize`, `run`) | Treat CLI shape and output filenames as stable interface unless migration is requested |
 | `config/committee.json` | Expert personas and rubric weights | Keep weights explicit; avoid silent defaults in docs |
 | `data/input/*.json` | Input templates and local variants | Real user data lives in `*.local.json` only |
-| `skills/public/weighted-intelligence-nodes-committee/SKILL.md` | Public skill entrypoint | Update when workflow or commands change |
-| `skills/public/weighted-intelligence-nodes-committee/references/data-contracts.md` | Contract reference | Update immediately after schema changes |
+| `skills/public/win-committee/SKILL.md` | Public skill entrypoint | Update when workflow or commands change |
+| `skills/public/win-committee/references/data-contracts.md` | Contract reference | Update immediately after schema changes |
 | `docs/2026-02-05_mvp-spec.md` | Product and acceptance criteria | Update when scoring logic or pipeline behavior changes |
 
 ## Standard Workflow
 
-1. Validate input JSON against `skills/public/weighted-intelligence-nodes-committee/references/data-contracts.md`.
+1. Validate input JSON against `skills/public/win-committee/references/data-contracts.md`.
 2. Run full pipeline with local or template inputs.
 3. Review `data/output/summary.md` and `data/output/committee_matrix.json` for score/coherence regressions.
 4. If behavior changed, sync docs and skill references in the same change.
@@ -41,13 +41,13 @@ These rules override broader workspace defaults when they conflict.
 | Goal | Command |
 | --- | --- |
 | Full pipeline | `python3 scripts/mvp_committee.py run --targets data/input/targets.local.json --content data/input/content.local.json --committee config/committee.json --outdir data/output` |
-| Full pipeline (skill wrapper) | `bash skills/public/weighted-intelligence-nodes-committee/scripts/run_committee.sh` |
+| Full pipeline (skill wrapper) | `bash skills/public/win-committee/scripts/run_committee.sh` |
 | Staged profile | `python3 scripts/mvp_committee.py profile --targets data/input/targets.local.json --out data/output/profiles.json` |
-| Staged profile (skill wrapper) | `bash skills/public/weighted-intelligence-nodes-profile-targets/scripts/run_profile.sh` |
+| Staged profile (skill wrapper) | `bash skills/public/win-profile/scripts/run_profile.sh` |
 | Staged evaluate | `python3 scripts/mvp_committee.py evaluate --profiles data/output/profiles.json --content data/input/content.local.json --committee config/committee.json --out data/output/committee_matrix.json` |
-| Staged evaluate (skill wrapper) | `bash skills/public/weighted-intelligence-nodes-evaluate-content/scripts/run_evaluate.sh` |
+| Staged evaluate (skill wrapper) | `bash skills/public/win-evaluate/scripts/run_evaluate.sh` |
 | Staged synthesize | `python3 scripts/mvp_committee.py synthesize --matrix data/output/committee_matrix.json --out data/output/summary.md` |
-| Staged synthesize (skill wrapper) | `bash skills/public/weighted-intelligence-nodes-synthesize-summary/scripts/run_synthesize.sh` |
+| Staged synthesize (skill wrapper) | `bash skills/public/win-summary/scripts/run_synthesize.sh` |
 
 If local files do not exist, copy templates first:
 
@@ -64,9 +64,9 @@ cp data/input/content.json data/input/content.local.json
 - When changing CLI args, schema, scoring, or rubric semantics, update all affected references:
   - `README.md`
   - `docs/2026-02-05_mvp-spec.md`
-  - `skills/public/weighted-intelligence-nodes-committee/SKILL.md`
-  - `skills/public/weighted-intelligence-nodes-committee/references/data-contracts.md`
-  - `skills/public/weighted-intelligence-nodes-committee/references/workflow.md`
+  - `skills/public/win-committee/SKILL.md`
+  - `skills/public/win-committee/references/data-contracts.md`
+  - `skills/public/win-committee/references/workflow.md`
 
 ## Validation Gate Before Merge
 

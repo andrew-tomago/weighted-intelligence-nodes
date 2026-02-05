@@ -1,0 +1,4 @@
+interface:
+  display_name: "WIN Profile"
+  short_description: "Build target profiles"
+  default_prompt: "Use $win-profile to generate profiles from public target signals."

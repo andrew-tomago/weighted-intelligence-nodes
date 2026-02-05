@@ -1,0 +1,4 @@
+interface:
+  display_name: "WIN Committee"
+  short_description: "Run full committee workflow"
+  default_prompt: "Use $win-committee to profile targets, score drafts, and synthesize consensus feedback."

@@ -1,9 +1,9 @@
 ---
-name: weighted-intelligence-nodes-evaluate-content
-description: Score content variants against weighted-intelligence-nodes committee personas. Use when users ask to run committee evaluation, compare draft messages, tune rubric weights or expert focus keywords, or generate committee_matrix.json from existing profiles.
+name: win-evaluate
+description: Score content variants with WIN committee experts. Use to generate committee_matrix.json, compare drafts, and tune rubric weights or expert focus.
 ---
 
-# Weighted Intelligence Nodes Evaluate Content
+# WIN Evaluate
 
 ## Overview
 
@@ -24,7 +24,7 @@ scripts/run_evaluate.sh
 ## Input Contracts
 
 Expected schemas are documented in:
-- `../weighted-intelligence-nodes-committee/references/data-contracts.md`
+- `../win-committee/references/data-contracts.md`
 
 ## Guardrails
 

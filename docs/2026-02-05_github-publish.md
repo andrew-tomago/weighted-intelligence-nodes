@@ -41,11 +41,11 @@ git push -u origin codex/mvp-scaffold
 
 The public skill spec path in this repo:
 
-- `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-committee/SKILL.md`
+- `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/win-committee/SKILL.md`
 
 Share this direct URL once pushed:
 
-- `https://github.com/<your-user>/weighted-intelligence-nodes/blob/codex/mvp-scaffold/skills/public/weighted-intelligence-nodes-committee/SKILL.md`
+- `https://github.com/<your-user>/weighted-intelligence-nodes/blob/codex/mvp-scaffold/skills/public/win-committee/SKILL.md`
 
 ## Hackathon Demo Sequence
 
