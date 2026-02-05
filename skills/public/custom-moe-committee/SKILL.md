@@ -1,6 +1,6 @@
 ---
 name: custom-moe-committee
-description: Build and run an audience-profiling committee workflow that turns public target signals into profiles, evaluates draft content from multiple persona perspectives, and synthesizes a balanced recommendation. Use when users ask to test content against persona panels, tune expert weights/rubrics, scale to more target personas, or produce committee summaries from target/content JSON data.
+description: Validate your ideas with a custom panel of experts.
 ---
 
 # Custom MoE Committee

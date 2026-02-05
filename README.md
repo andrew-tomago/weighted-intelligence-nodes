@@ -7,7 +7,7 @@ Created_by:
   Model: gpt-5
 -->
 
-# custom-moe
+# weighted-intelligence-nodes
 
 MVP scaffold for an audience "committee" pipeline inspired by mixture-of-experts. It profiles targets from public signals, runs multiple persona evaluators against draft content, then synthesizes balanced feedback.
 

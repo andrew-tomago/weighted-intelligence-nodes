@@ -22,7 +22,7 @@ git init
 git checkout -b codex/mvp-scaffold
 git add .
 git commit -m "Scaffold custom-moe MVP and Codex skill"
-gh repo create custom-moe --public --source=. --remote=origin --push
+gh repo create weighted-intelligence-nodes --public --source=. --remote=origin --push
 ```
 
 Option B (manual remote):
@@ -33,7 +33,7 @@ git init
 git checkout -b codex/mvp-scaffold
 git add .
 git commit -m "Scaffold custom-moe MVP and Codex skill"
-git remote add origin git@github.com:<your-user>/custom-moe.git
+git remote add origin git@github.com:<your-user>/weighted-intelligence-nodes.git
 git push -u origin codex/mvp-scaffold
 ```
 
@@ -45,7 +45,7 @@ The public skill spec path in this repo:
 
 Share this direct URL once pushed:
 
-- `https://github.com/<your-user>/custom-moe/blob/codex/mvp-scaffold/skills/public/custom-moe-committee/SKILL.md`
+- `https://github.com/<your-user>/weighted-intelligence-nodes/blob/codex/mvp-scaffold/skills/public/custom-moe-committee/SKILL.md`
 
 ## Hackathon Demo Sequence
 
