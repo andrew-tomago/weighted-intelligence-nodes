@@ -1,0 +1,74 @@
+{
+  "targets": [
+    {
+      "id": "laura-modiano",
+      "name": "Laura Modiano",
+      "public_data": {
+        "bio": "Head of Startups EMEA at OpenAI. Public role includes working with startups, developers, VCs, and accelerators across the region.",
+        "posts": [
+          "OpenAI startup commentary highlights a shift toward technical founders, with technical founders increasingly represented among top AI startup leaders.",
+          "Public remarks emphasize direct founder feedback loops to improve platform and product direction.",
+          "Visible participation in startup ecosystem events shows ongoing focus on practical AI building and founder support."
+        ],
+        "differentiators": [
+          "OpenAI role scope is specifically startups in EMEA.",
+          "Public positioning centers on technical founders and startup execution.",
+          "Frequently appears in European startup ecosystem programming."
+        ],
+        "freshness_review": {
+          "reviewed_at": "2026-02-05",
+          "stale_threshold_months": 18,
+          "status": "no_stale_evidence_detected",
+          "notes": "Current evidence items are from 2025 and within the freshness window."
+        },
+        "confidence": {
+          "overall": "medium-high",
+          "notes": [
+            "Primary sources support role, region, and startup focus.",
+            "One evidence item is a secondary recap and is treated as medium confidence."
+          ]
+        },
+        "evidence_metadata": [
+          {
+            "id": "LM-01",
+            "date": "2025-01-01",
+            "source_type": "primary",
+            "confidence": "high",
+            "stale": false
+          },
+          {
+            "id": "LM-02",
+            "date": "2025-10-08",
+            "source_type": "primary",
+            "confidence": "high",
+            "stale": false
+          },
+          {
+            "id": "LM-03",
+            "date": "2025-09-22",
+            "source_type": "primary",
+            "confidence": "high",
+            "stale": false
+          },
+          {
+            "id": "LM-06",
+            "date": "2025-10-11",
+            "source_type": "secondary",
+            "confidence": "medium",
+            "stale": false
+          }
+        ],
+        "evidence": [
+          "LM-01: https://summit.sifted.eu/speakers/laura-modiano",
+          "LM-02: https://summit.sifted.eu/sifted-summit-agenda/fireside",
+          "LM-03: https://sifted.eu/articles/openai-technical-founder-rise/",
+          "LM-06: https://www.benzinga.com/markets/tech/25/10/48163976/openai-executive-urges-european-ai-founders-to-share-feedback-we-dont-always-know"
+        ],
+        "links": [
+          "https://summit.sifted.eu/speakers/laura-modiano",
+          "https://sifted.eu/articles/openai-technical-founder-rise/"
+        ]
+      }
+    }
+  ]
+}

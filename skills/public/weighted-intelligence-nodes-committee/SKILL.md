@@ -31,6 +31,13 @@ python3 scripts/mvp_committee.py run \
   --outdir data/output
 ```
 
+Use the Laura evidence-rich example as input:
+
+```bash
+cd /Users/tomago/andrew-tomago/public/weighted-intelligence-nodes
+cp examples/targets.laura-modiano.example.json data/input/targets.local.json
+```
+
 Run staged pipeline:
 
 ```bash
@@ -50,8 +57,9 @@ python3 scripts/mvp_committee.py synthesize --matrix data/output/committee_matri
 ## Guardrails
 
 - Use only public or user-provided data.
-- Do not infer sensitive attributes.
+- Never infer private or sensitive attributes.
 - Keep analysis focused on content quality and audience-fit signals.
+- Stick to observable public work and stated preferences only.
 - Keep user-specific input in `data/input/*.local.json` (gitignored).
 
 ## References

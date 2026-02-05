@@ -28,6 +28,7 @@ MVP scaffold for an audience "committee" pipeline inspired by mixture-of-experts
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/config/committee.json` | Committee persona + rubric config |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/input/targets.json` | Sample public target profiles (template) |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/input/content.json` | Sample content drafts (template) |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/examples/targets.laura-modiano.example.json` | Evidence-rich profile example (Laura Modiano) |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-committee` | Codex skill package |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/docs/` | MVP spec + publish instructions |
 
@@ -50,6 +51,13 @@ Outputs:
 - `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/output/committee_matrix.json`
 - `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/output/summary.md`
 
+Use the Laura evidence example:
+
+```bash
+cd /Users/tomago/andrew-tomago/public/weighted-intelligence-nodes
+cp examples/targets.laura-modiano.example.json data/input/targets.local.json
+```
+
 ## Codex Skill
 
 The skill package lives at:
@@ -61,8 +69,9 @@ Use it when you want Codex to run this pipeline, tune committee members, or gene
 ## Safety Guardrails
 
 - Use only public or user-provided data.
-- Do not infer or store protected/sensitive attributes.
+- Never infer private or sensitive attributes.
 - Keep outputs focused on content fit, messaging clarity, and evidence quality.
+- Stick to observable public work and stated preferences only.
 - Put real audience data in `data/input/*.local.json` only. These files are gitignored.
 
 ## License
