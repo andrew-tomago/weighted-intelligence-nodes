@@ -1,0 +1,29 @@
+{
+  "committee_name": "hackathon-v1",
+  "rubric_weights": {
+    "fit": 0.45,
+    "clarity": 0.2,
+    "novelty": 0.2,
+    "trust": 0.15
+  },
+  "experts": [
+    {
+      "id": "growth-operator",
+      "persona": "Growth Operator",
+      "focus_keywords": ["hook", "share", "story", "viral", "cta"],
+      "weight": 1.1
+    },
+    {
+      "id": "domain-practitioner",
+      "persona": "Domain Practitioner",
+      "focus_keywords": ["workflow", "implementation", "case", "results", "benchmark"],
+      "weight": 1.0
+    },
+    {
+      "id": "skeptical-reviewer",
+      "persona": "Skeptical Reviewer",
+      "focus_keywords": ["evidence", "risk", "tradeoff", "failure", "proof"],
+      "weight": 0.9
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "content": [
+    {
+      "id": "c1",
+      "title": "How we grew our AI product from 0 to 100 users in 14 days",
+      "body": "We tested three hooks, shared daily build logs, and used one CTA per post. Results: 6.8% click-through rate and 24 paid upgrades. Includes benchmark table and experiment workflow."
+    },
+    {
+      "id": "c2",
+      "title": "Thoughts on the future of AI",
+      "body": "AI is changing everything. Teams should adapt quickly and stay innovative. The future belongs to bold builders."
+    }
+  ]
+}

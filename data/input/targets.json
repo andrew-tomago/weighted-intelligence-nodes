@@ -1,0 +1,32 @@
+{
+  "targets": [
+    {
+      "id": "indie-ai-founder",
+      "name": "Indie AI Founder",
+      "public_data": {
+        "bio": "Bootstrapped builder shipping AI products weekly. Cares about fast experiments, distribution, and revenue.",
+        "posts": [
+          "Shipped a micro-SaaS feature in 48 hours and got 19 paid users.",
+          "Distribution > coding. A strong hook and clear CTA beats fancy architecture early.",
+          "Need benchmarks and evidence when evaluating model quality."
+        ],
+        "links": [
+          "newsletter: practical AI growth playbooks",
+          "profile: product-led growth and founder workflows"
+        ]
+      }
+    },
+    {
+      "id": "content-strategist",
+      "name": "Content Strategist",
+      "public_data": {
+        "bio": "Runs multi-channel content systems for B2B creators. Prioritizes clarity, repeatable formats, and proof-backed claims.",
+        "posts": [
+          "When content underperforms, diagnose hook, audience-fit, and trust signals first.",
+          "Prefer case studies with concrete numbers over generic thought leadership.",
+          "Create reusable content templates to scale quality."
+        ]
+      }
+    }
+  ]
+}
