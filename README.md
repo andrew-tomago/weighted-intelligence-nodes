@@ -24,17 +24,17 @@ MVP scaffold for an audience "committee" pipeline inspired by mixture-of-experts
 
 | Path | Purpose |
 | --- | --- |
-| `/Users/tomago/andrew-tomago/public/custom-moe/scripts/mvp_committee.py` | CLI pipeline (`profile`, `evaluate`, `synthesize`, `run`) |
-| `/Users/tomago/andrew-tomago/public/custom-moe/config/committee.json` | Committee persona + rubric config |
-| `/Users/tomago/andrew-tomago/public/custom-moe/data/input/targets.json` | Sample public target profiles (template) |
-| `/Users/tomago/andrew-tomago/public/custom-moe/data/input/content.json` | Sample content drafts (template) |
-| `/Users/tomago/andrew-tomago/public/custom-moe/skills/public/custom-moe-committee` | Codex skill package |
-| `/Users/tomago/andrew-tomago/public/custom-moe/docs/` | MVP spec + publish instructions |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/scripts/mvp_committee.py` | CLI pipeline (`profile`, `evaluate`, `synthesize`, `run`) |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/config/committee.json` | Committee persona + rubric config |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/input/targets.json` | Sample public target profiles (template) |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/input/content.json` | Sample content drafts (template) |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/custom-moe-committee` | Codex skill package |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/docs/` | MVP spec + publish instructions |
 
 ## Quick Start
 
 ```bash
-cd /Users/tomago/andrew-tomago/public/custom-moe
+cd /Users/tomago/andrew-tomago/public/weighted-intelligence-nodes
 cp data/input/targets.json data/input/targets.local.json
 cp data/input/content.json data/input/content.local.json
 python3 scripts/mvp_committee.py run \
@@ -46,15 +46,15 @@ python3 scripts/mvp_committee.py run \
 
 Outputs:
 
-- `/Users/tomago/andrew-tomago/public/custom-moe/data/output/profiles.json`
-- `/Users/tomago/andrew-tomago/public/custom-moe/data/output/committee_matrix.json`
-- `/Users/tomago/andrew-tomago/public/custom-moe/data/output/summary.md`
+- `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/output/profiles.json`
+- `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/output/committee_matrix.json`
+- `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/output/summary.md`
 
 ## Codex Skill
 
 The skill package lives at:
 
-- `/Users/tomago/andrew-tomago/public/custom-moe/skills/public/custom-moe-committee`
+- `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/custom-moe-committee`
 
 Use it when you want Codex to run this pipeline, tune committee members, or generate evaluation summaries from new datasets.
 
@@ -67,4 +67,4 @@ Use it when you want Codex to run this pipeline, tune committee members, or gene
 
 ## License
 
-MIT. See `/Users/tomago/andrew-tomago/public/custom-moe/LICENSE`.
+MIT. See `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/LICENSE`.

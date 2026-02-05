@@ -21,7 +21,7 @@ Use this skill to execute a fast MoE-style audience feedback loop for hackathon 
 Run full pipeline:
 
 ```bash
-cd /Users/tomago/andrew-tomago/public/custom-moe
+cd /Users/tomago/andrew-tomago/public/weighted-intelligence-nodes
 cp data/input/targets.json data/input/targets.local.json
 cp data/input/content.json data/input/content.local.json
 python3 scripts/mvp_committee.py run \
@@ -34,7 +34,7 @@ python3 scripts/mvp_committee.py run \
 Run staged pipeline:
 
 ```bash
-cd /Users/tomago/andrew-tomago/public/custom-moe
+cd /Users/tomago/andrew-tomago/public/weighted-intelligence-nodes
 python3 scripts/mvp_committee.py profile --targets data/input/targets.local.json --out data/output/profiles.json
 python3 scripts/mvp_committee.py evaluate --profiles data/output/profiles.json --content data/input/content.local.json --committee config/committee.json --out data/output/committee_matrix.json
 python3 scripts/mvp_committee.py synthesize --matrix data/output/committee_matrix.json --out data/output/summary.md
