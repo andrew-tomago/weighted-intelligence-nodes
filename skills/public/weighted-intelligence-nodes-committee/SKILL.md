@@ -1,9 +1,9 @@
 ---
-name: custom-moe-committee
-description: Validate your ideas with a custom panel of experts.
+name: weighted-intelligence-nodes-committee
+description: Validate ideas with a weighted-intelligence-nodes expert panel.
 ---
 
-# Custom MoE Committee
+# Weighted Intelligence Nodes Committee
 
 ## Overview
 

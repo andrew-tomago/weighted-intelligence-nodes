@@ -28,7 +28,7 @@ MVP scaffold for an audience "committee" pipeline inspired by mixture-of-experts
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/config/committee.json` | Committee persona + rubric config |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/input/targets.json` | Sample public target profiles (template) |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/data/input/content.json` | Sample content drafts (template) |
-| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/custom-moe-committee` | Codex skill package |
+| `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-committee` | Codex skill package |
 | `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/docs/` | MVP spec + publish instructions |
 
 ## Quick Start
@@ -54,7 +54,7 @@ Outputs:
 
 The skill package lives at:
 
-- `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/custom-moe-committee`
+- `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/skills/public/weighted-intelligence-nodes-committee`
 
 Use it when you want Codex to run this pipeline, tune committee members, or generate evaluation summaries from new datasets.
 

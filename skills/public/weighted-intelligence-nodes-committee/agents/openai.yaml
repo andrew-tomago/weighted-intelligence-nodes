@@ -1,4 +1,4 @@
 interface:
-  display_name: "Custom MoE Committee"
+  display_name: "Weighted Intelligence Nodes Committee"
   short_description: "Run persona committees for audience feedback"
   default_prompt: "Profile targets from public data, evaluate content with committee personas, and synthesize balanced feedback."
