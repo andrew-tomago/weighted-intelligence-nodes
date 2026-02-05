@@ -61,6 +61,7 @@ cp data/input/content.json data/input/content.local.json
 - Keep dependencies minimal; prefer Python standard library unless external dependency is explicitly needed.
 - Do not hand-edit generated artifacts in `data/output/`; regenerate them.
 - Preserve public-data-only boundaries. Do not add sensitive-attribute inference.
+- If progress is made against `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/docs/2026-02-05_primitive-skills-plan.md`, update the front-facing status section in [`README.md`](README.md#primitive-plan-status-yet-to-be-implemented) in the same commit.
 - When changing CLI args, schema, scoring, or rubric semantics, update all affected references:
   - `README.md`
   - `docs/2026-02-05_mvp-spec.md`

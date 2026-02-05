@@ -69,6 +69,23 @@ Available skill packages (from `skills/public/*/SKILL.md`):
 | `win-evaluate` | WIN Evaluate | Evaluate stage (`committee_matrix.json`) | `bash skills/public/win-evaluate/scripts/run_evaluate.sh` |
 | `win-summary` | WIN Summary | Synthesis stage (`summary.md`) | `bash skills/public/win-summary/scripts/run_synthesize.sh` |
 
+## Primitive Plan Status (Yet To Be Implemented)
+
+Reference plan: `/Users/tomago/andrew-tomago/public/weighted-intelligence-nodes/docs/2026-02-05_primitive-skills-plan.md`.
+
+The current repository ships an MVP flow (`profile`, `evaluate`, `synthesize`, `run`) and four `win-*` skills. The following plan primitives are still incomplete:
+
+| Primitive | Status | Current Gap |
+| --- | --- | --- |
+| `resolve-identity` | Missing | No identity resolution skill or `data/identity/<person_id>.json` artifact. |
+| `harvest-public-evidence` | Missing | No evidence harvesting primitive or `data/evidence/<person_id>.json` artifact. |
+| `write-profile-md` | Partial | `profile` exists, but outputs JSON (`profiles.json`) instead of `data/profiles/<person_id>.md` + index. |
+| `refresh-profile-md` | Missing | No refresh mode (`expand` or `prune`) implementation or changelog updates. |
+| `compose-committee` | Partial | Committee is static (`config/committee.json`); no dynamic composition primitive producing `data/committees/<committee_id>.json`. |
+| `query-committee` | Partial | `evaluate` exists, but does not emit `data/opinions/<run_id>.json` with the planned schema. |
+| `synthesize-report` | Partial | `summary.md` exists, but not the full planned report contract (`verdict`, `consensus`, `disagreements`, `expert_breakdown`, `priority_actions`). |
+| `validate-artifacts` | Missing | No dedicated schema/citation quality gate primitive returning pass/fail + errors. |
+
 ## Safety Guardrails
 
 - Use only public or user-provided data.
