@@ -4,34 +4,33 @@ tags:
   - final-round
 judge_round: final_round
 last_researched: '2026-02-05'
-research_confidence: high
 last_verified: '2026-02-05'
-verification_basis: public-signals-only
+verification_basis: cited-public-sources
+research_confidence: high
+identity_risk: low
 ---
 # Sonya Huang
 
-## Snapshot
-- Current role: Partner at Sequoia Capital.
-- Focus area: AI investing and company-building in application and platform layers.
-- Public footprint: frequent writing/speaking on AI market shifts and founder execution.
+## Verified Facts (Cited)
+- Sequoia Capital's official people page identifies Sonya Huang as a Partner. [S1]
+- Sequoia portfolio pages list Sonya Huang as partner contact on AI companies (for example, Gong and Fireworks AI). [S2][S3]
 
-## Judging Lens (Likely)
-- Market size and strategic timing.
-- Team-market fit and founder insight depth.
-- Defensibility: distribution, data advantage, workflow lock-in, and execution speed.
+## Inferred Judging Lens (Inference)
+- Likely to assess market size, wedge quality, distribution leverage, and moat durability. [S1][S2][S3]
+- Likely to prioritize founder insight depth and strategic timing. [S1]
 
-## Practical Pitch Strategy
-- Explain the wedge clearly: where you win first and why incumbents cannot copy quickly.
-- Prove urgency with user behavior and measurable pull.
-- Show a credible expansion path beyond your initial use case.
+## Pitch Guidance
+- Explain initial wedge and why incumbents cannot copy quickly.
+- Show evidence of customer pull and expansion logic.
+- Be explicit about defensibility over time.
 
-## Source Links
-- https://www.sequoiacap.com/people/sonya-huang/
-- https://www.forbes.com/sites/kenrickcai/2023/04/17/sequoia-sonya-huang-generative-ai-hot-list/
+## Sources (Resolved 2026-02-05)
+- [S1] https://sequoiacap.com/people/sonya-huang/
+- [S2] https://sequoiacap.com/companies/gong/
+- [S3] https://sequoiacap.com/companies/fireworks-ai/
 
 ## Confidence
-High (strong first-party investor profile plus broad secondary coverage).
-
+High. First-party investor profile and portfolio context are clear.
 
 ## Decision Tree (Mermaid)
 ```mermaid

@@ -4,46 +4,32 @@ tags:
   - first-round
 judge_round: first_round
 last_researched: '2026-02-05'
+last_verified: '2026-02-05'
+verification_basis: cited-public-sources
 research_confidence: high
 identity_risk: low
-last_verified: '2026-02-05'
-verification_basis: public-signals-only
 ---
 # Dave Leo
 
-## Verified Public Signals (as of February 5, 2026)
-- First-party OpenAI Cookbook article on GPT-5-Codex prompting is bylined to Dave Leo.
-- Public event listings identify Dave Leo as OpenAI and tie him to coding-agent hackathon programming.
-- The public content focus is practical prompting systems for coding reliability.
+## Verified Facts (Cited)
+- OpenAI Cookbook's GPT-5-Codex Prompting Guide is authored by Dave Leo and is focused on robust prompting systems for coding tasks. [S1]
+- OpenAI's Codex product materials emphasize reliability, verifiable execution, and quality guardrails in coding-agent workflows. [S2]
 
-## Inferred Judging Priorities
-Inference from published material:
-- Prompt discipline and harness design quality.
-- Reliability under real constraints rather than isolated one-off prompts.
-- Evaluation-driven prompt iteration with clear acceptance criteria.
+## Inferred Judging Lens (Inference)
+- Likely to prioritize prompt/harness quality, consistency, and evaluation discipline. [S1]
+- Likely to value evidence-driven reliability rather than one-shot prompting claims. [S1][S2]
 
-## What To Emphasize In Your Pitch
-- Your prompt stack as a system: instructions, constraints, tool policy, verification.
-- Prompt failure taxonomy and how you remediate each class.
-- Evidence that your prompting approach generalizes across tasks/repos.
+## Pitch Guidance
+- Present your prompt system as a governed stack (instructions, constraints, tool policy, verification).
+- Show failure taxonomy and remediation process.
+- Include comparative outcomes against simpler baselines.
 
-## What To Avoid
-- Treating prompts as static magic strings.
-- Ignoring tool permissions and execution boundaries.
-- No empirical comparison against simpler baselines.
+## Sources (Resolved 2026-02-05)
+- [S1] https://cookbook.openai.com/examples/gpt-5-codex_prompting_guide
+- [S2] https://openai.com/index/introducing-codex/
 
-## Likely Questions To Prepare For
-- "How robust is this prompt strategy across different codebases?"
-- "How do you detect and fix prompt drift?"
-- "What guardrails keep generated changes safe?"
-
-## Source Links
-- https://cookbook.openai.com/examples/gpt-5-codex_prompting_guide
-- https://lu.ma/w5oh2vzg
-
-## Confidence + Identity Risk
-High confidence, low identity risk for judging-relevant expertise based on first-party byline plus event corroboration.
-
+## Confidence
+High for prompting-domain relevance. Evidence is first-party and directly technical.
 
 ## Decision Tree (Mermaid)
 ```mermaid

@@ -4,48 +4,34 @@ tags:
   - final-round
 judge_round: final_round
 last_researched: '2026-02-05'
+last_verified: '2026-02-05'
+verification_basis: cited-public-sources
 research_confidence: high
 identity_risk: low
-last_verified: '2026-02-05'
-verification_basis: public-signals-only
 ---
 # Tibo Sottiaux
 
-## Verified Public Signals (as of February 5, 2026)
-- Official OpenAI podcast episode features Greg Brockman and Tibo Sottiaux discussing Codex.
-- Acast metadata for that episode identifies Tibo as Codex engineering lead.
-- Additional engineering podcast coverage similarly frames Tibo as leading OpenAI Codex engineering.
+## Verified Facts (Cited)
+- OpenAI Podcast episode 6 on Acast identifies Tibo Sottiaux as Codex engineering lead. [S1]
+- Software Engineering Daily episode coverage identifies Tibo Sottiaux and Ed Bayes discussing OpenAI and Codex. [S2]
+- OpenAI's official podcast post confirms the episode with Greg Brockman and Tibo Sottiaux focused on the future of coding with AI. [S3]
 
-## Inferred Judging Priorities
-Inference from those sources:
-- End-to-end productization of coding agents at scale.
-- Engineering tradeoffs across model quality, latency, reliability, and UX.
-- Practical rollout discipline (guardrails, telemetry, iterative deployment).
+## Inferred Judging Lens (Inference)
+- Likely to prioritize productized agent systems that balance quality, latency, reliability, and rollout safety. [S1][S2][S3]
+- Likely to reward teams with strong telemetry, guardrails, and iterative deployment discipline. [S1][S2]
 
-## What To Emphasize In Your Pitch
-- How your system moves from impressive prototype to dependable product.
-- Clear tradeoff decisions and why they are operationally sound.
-- Evidence of stability and learning loops in real usage.
+## Pitch Guidance
+- Show operational tradeoffs and why they are defensible.
+- Provide evidence of stability in production-like conditions.
+- Demonstrate monitoring, gating, and feedback loops.
 
-## What To Avoid
-- Abstract strategy without operating evidence.
-- Ignoring rollout and monitoring details.
-- Over-automation with weak control surfaces.
+## Sources (Resolved 2026-02-05)
+- [S1] https://shows.acast.com/openai-podcast/episodes/episode-6-the-future-of-coding-with-ai
+- [S2] https://softwareengineeringdaily.com/2026/01/29/openai-and-codex-with-thibault-sottiaux-and-ed-bayes/
+- [S3] https://openai.com/index/openai-podcast-episode-6-with-greg-brockman-and-tibo-sottiaux/
 
-## Likely Questions To Prepare For
-- "How does this hold up in production-like usage?"
-- "What tradeoffs did you make and why?"
-- "How does your team monitor, evaluate, and iterate safely?"
-
-## Source Links
-- https://openai.com/index/openai-podcast-episode-6-with-greg-brockman-and-tibo-sottiaux/
-- https://openai.simplecast.com/episodes/openai-podcast-episode-6-with-greg-brockman-and-tibo-sottiaux
-- https://shows.acast.com/openai-podcast/episodes/openai-podcast-episode-6-with-greg-brockman-and-tibo-sottia
-- https://softwareengineeringdaily.com/2025/11/18/openai-codex-for-agentic-software-engineering-with-tibo-sottiaux-and-ed-bayes/
-
-## Confidence + Identity Risk
-High confidence, low identity risk based on multiple direct episode-level sources.
-
+## Confidence
+High. Role and domain focus are consistently supported by direct episode sources.
 
 ## Decision Tree (Mermaid)
 ```mermaid

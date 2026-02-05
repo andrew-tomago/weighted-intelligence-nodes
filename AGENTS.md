@@ -77,3 +77,7 @@ cp data/input/content.json data/input/content.local.json
   - `data/output/committee_matrix.json`
   - `data/output/summary.md`
 - Ensure docs and skill references match implementation behavior.
+
+## Reusable Project Review Workflow
+
+- For committee-style review requests on new project ideas, follow `/Volumes/Code/OpenAI-Hackathon/weighted-intelligence-nodes/AGENT.md`.
