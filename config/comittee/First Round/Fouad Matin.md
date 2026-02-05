@@ -4,35 +4,32 @@ tags:
   - first-round
 judge_round: first_round
 last_researched: '2026-02-05'
-research_confidence: high
 last_verified: '2026-02-05'
-verification_basis: public-signals-only
+verification_basis: cited-public-sources
+research_confidence: high
+identity_risk: low
 ---
 # Fouad Matin
 
-## Snapshot
-- Current role: Works on security at OpenAI.
-- Prior background: Co-founder/CEO at Indent; previous engineering roles including Segment; product-design + engineering blend.
-- Public focus: Codex, security, and agent-enabled secure development workflows.
+## Verified Facts (Cited)
+- Fouad Matin's site states he works on security at OpenAI. [S1]
+- His about page lists role timeline including OpenAI Security (May 2024–present), prior Co-founder/CEO at Indent, and prior Segment engineering role. [S2]
 
-## Judging Lens (Likely)
-- Security posture of AI applications and agent workflows.
-- How teams manage sensitive data, sandboxing, and permission boundaries.
-- Practical vulnerability discovery/remediation workflow design.
+## Inferred Judging Lens (Inference)
+- Likely to prioritize concrete security controls in agent systems (permissions, data handling, boundaries). [S1][S2]
+- Likely to value realistic threat modeling and incident response readiness. [S2]
 
-## Practical Pitch Strategy
-- Clearly document your threat model and mitigation approach.
-- Show how you constrain tool use, protect secrets, and handle unsafe outputs.
-- Include one concrete security incident simulation and your response path.
+## Pitch Guidance
+- Present explicit threat model + mitigations.
+- Show least-privilege tooling and secret/data handling controls.
+- Include one incident simulation and containment/recovery path.
 
-## Source Links
-- https://fouad.org/
-- https://fouad.org/about
-- https://twstalker.com/fouadmatin
+## Sources (Resolved 2026-02-05)
+- [S1] https://fouad.org/
+- [S2] https://fouad.org/about
 
 ## Confidence
-High (first-party site with explicit role timeline, corroborated by public activity).
-
+High. Primary first-party role timeline and scope are explicit.
 
 ## Decision Tree (Mermaid)
 ```mermaid

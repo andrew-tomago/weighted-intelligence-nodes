@@ -4,34 +4,32 @@ tags:
   - final-round
 judge_round: final_round
 last_researched: '2026-02-05'
-research_confidence: high
 last_verified: '2026-02-05'
-verification_basis: public-signals-only
+verification_basis: cited-public-sources
+research_confidence: high
+identity_risk: low
 ---
 # Lenny Rachitsky
 
-## Snapshot
-- Current role: Author of Lenny’s Newsletter and host of a product-focused podcast.
-- Prior background: product leadership/operator path (publicly associated with Airbnb-era product work).
-- Focus: practical product strategy, growth, and execution for builders.
+## Verified Facts (Cited)
+- Lenny Rachitsky's official site describes him as creator of Lenny's Newsletter and host of Lenny's Podcast. [S1]
+- Lenny's Newsletter about page presents the publication's focus on product, growth, and startup operator learning. [S2]
 
-## Judging Lens (Likely)
-- User-value clarity and product insight depth.
-- Product strategy rigor: ICP, onboarding, retention loop, expansion path.
-- Team execution quality and prioritization under constraints.
+## Inferred Judging Lens (Inference)
+- Likely to prioritize user-value clarity, product strategy rigor, and retention/behavioral evidence. [S1][S2]
+- Likely to reward disciplined prioritization and practical execution under constraints. [S2]
 
-## Practical Pitch Strategy
-- Tell a crisp user story with measurable behavior change.
-- Show retention or repeat usage evidence, not only interest.
-- Demonstrate a tight product roadmap with explicit tradeoffs.
+## Pitch Guidance
+- Show measurable behavior change, not just top-of-funnel excitement.
+- Make the activation and retention loop explicit.
+- Present roadmap tradeoffs clearly.
 
-## Source Links
-- https://www.lennysnewsletter.com/
-- https://www.lennyrachitsky.com/about
+## Sources (Resolved 2026-02-05)
+- [S1] https://www.lennyrachitsky.com/
+- [S2] https://www.lennysnewsletter.com/about
 
 ## Confidence
-High (first-party site with consistent long-running public product profile).
-
+High. First-party profile and publication scope are clear.
 
 ## Decision Tree (Mermaid)
 ```mermaid

@@ -4,35 +4,32 @@ tags:
   - first-round
 judge_round: first_round
 last_researched: '2026-02-05'
-research_confidence: high
 last_verified: '2026-02-05'
-verification_basis: public-signals-only
+verification_basis: cited-public-sources
+research_confidence: high
+identity_risk: low
 ---
 # Ed Bayes
 
-## Snapshot
-- Current role: Member of Design Staff at OpenAI (research team) focused on coding agents and product/design interfaces.
-- Background highlights: design/technology work across frontier AI, prior robotics work at Google X, founder of General Purpose studio, educator.
-- Public positioning: active public voice for Codex and developer UX.
+## Verified Facts (Cited)
+- Ed Bayes' personal site states he is currently Member of Design Staff at OpenAI, working on coding agents in the research team. [S1]
+- Software Engineering Daily's OpenAI/Codex episode identifies Ed Bayes as Codex product designer alongside Thibault Sottiaux. [S2]
 
-## Judging Lens (Likely)
-- Product design quality in agentic workflows.
-- Developer UX clarity: setup friction, feedback loops, and iteration speed.
-- Whether a team can translate model capability into usable product behavior.
+## Inferred Judging Lens (Inference)
+- Likely to prioritize product/design quality in real agent workflows, not just raw model output. [S1][S2]
+- Likely to value UX clarity, flow efficiency, and practical developer outcomes. [S1]
 
-## Practical Pitch Strategy
-- Show one polished end-to-end workflow, not just model output demos.
-- Make quality-of-life UX details obvious (retries, observability, failure handling).
-- Quantify productivity gains with before/after developer metrics.
+## Pitch Guidance
+- Demo one polished end-to-end loop with visible error recovery.
+- Make user feedback/observability and iteration speed explicit.
+- Quantify productivity changes where possible.
 
-## Source Links
-- https://www.edbayes.com/
-- https://www.linkedin.com/posts/edbayes_a-few-months-late-but-delighted-to-share-activity-7283555391345418241-3yxj
-- https://cookbook.openai.com/examples/codex/codex_mcp_agents_sdk/building_consistent_workflows_codex_cli_agents_sdk
+## Sources (Resolved 2026-02-05)
+- [S1] https://www.edbayes.com/
+- [S2] https://softwareengineeringdaily.com/2026/01/29/openai-and-codex-with-thibault-sottiaux-and-ed-bayes/
 
 ## Confidence
-High (strong first-party profile and recent OpenAI/Codex references).
-
+High. Public role information is direct and consistent across sources.
 
 ## Decision Tree (Mermaid)
 ```mermaid

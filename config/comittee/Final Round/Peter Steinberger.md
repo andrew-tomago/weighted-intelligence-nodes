@@ -4,35 +4,34 @@ tags:
   - final-round
 judge_round: final_round
 last_researched: '2026-02-05'
-research_confidence: high
 last_verified: '2026-02-05'
-verification_basis: public-signals-only
+verification_basis: cited-public-sources
+research_confidence: high
+identity_risk: low
 ---
 # Peter Steinberger
 
-## Snapshot
-- Public profile: long-time software engineer/entrepreneur ("steipete").
-- Notable work: created PSPDFKit (later Nutrient SDK) and active engineering writing/open-source contributions.
-- Current focus: deep technical product building, software quality, and tooling.
+## Verified Facts (Cited)
+- Peter Steinberger's site (steipete.me) identifies his public engineering profile and long-form technical writing. [S1]
+- His GitHub profile identifies him as a software engineer and "ex-PSPDFKit founder." [S2]
+- Nutrient's company history describes PSPDFKit's founding timeline and later rebrand context. [S3]
 
-## Judging Lens (Likely)
-- Engineering craftsmanship and system quality.
-- Architectural choices that hold up under scale and maintenance.
-- Product decisions grounded in strong technical fundamentals.
+## Inferred Judging Lens (Inference)
+- Likely to prioritize implementation quality, system robustness, and maintainable architecture. [S1][S2]
+- Likely to value evidence of engineering craftsmanship over high-level positioning alone. [S1]
 
-## Practical Pitch Strategy
-- Show code and architecture quality, not only high-level concept.
-- Explain why your implementation choices improve reliability and speed.
-- Demonstrate evidence of real-world maintainability and developer trust.
+## Pitch Guidance
+- Lead with implementation decisions and why they improve reliability.
+- Include maintainability/performance evidence from real usage.
+- Keep API and developer experience choices concrete.
 
-## Source Links
-- https://steipete.me/
-- https://www.nutrient.io/company/news/five-things-you-did-not-know-about-pspdfkit/
-- https://github.com/steipete
+## Sources (Resolved 2026-02-05)
+- [S1] https://steipete.me/
+- [S2] https://github.com/steipete
+- [S3] https://www.nutrient.io/company/about/pspdfkit/
 
 ## Confidence
-High (first-party identity plus company history corroboration).
-
+High. Identity and technical background are strongly corroborated.
 
 ## Decision Tree (Mermaid)
 ```mermaid

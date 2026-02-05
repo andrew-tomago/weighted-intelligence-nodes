@@ -4,36 +4,34 @@ tags:
   - first-round
 judge_round: first_round
 last_researched: '2026-02-05'
-research_confidence: high
 last_verified: '2026-02-05'
-verification_basis: public-signals-only
+verification_basis: cited-public-sources
+research_confidence: high
+identity_risk: low
 ---
 # Laura Modiano
 
-## Snapshot
-- Current role: Startups EMEA lead/head at OpenAI.
-- Focus area: Startup ecosystem development across EMEA (VCs, accelerators, startup teams, developer community).
-- Prior background: AWS startup/VC partnerships, healthcare/life sciences startup programs, consulting and health/data/AI partnership roles.
+## Verified Facts (Cited)
+- Panathenea speaker profile identifies Laura Modiano as "Startups EMEA" at OpenAI and details prior AWS/VC ecosystem background. [S1]
+- Slush program profile similarly identifies her as OpenAI Startups Lead EMEA. [S2]
+- Tech.eu interview coverage quotes her in role discussing OpenAI startup engagement in Europe. [S3]
 
-## Relevant Context For Judging
-Laura appears to sit at the intersection of frontier AI capability and startup execution in EMEA. She is likely strong on:
-- Product-market fit signals in early AI startups.
-- GTM realism, partnership leverage, and founder velocity.
-- Founder quality, ecosystem strategy, and scaling readiness.
+## Inferred Judging Lens (Inference)
+- Likely to prioritize startup execution: PMF signal, GTM realism, and scaling readiness. [S1][S2][S3]
+- Likely to assess whether teams show durable advantage beyond a thin model wrapper. [S3]
 
-## Practical Pitch Strategy
-- Lead with the business problem and measurable user impact first.
-- Show how your team uses OpenAI models as a moat, not as a thin wrapper.
-- Be specific about distribution and expansion strategy (who buys, why now, and why you).
+## Pitch Guidance
+- Lead with customer pain + measurable impact.
+- Show distribution path and expansion logic, not just demo quality.
+- Clarify why your team has a durable right-to-win.
 
-## Source Links
-- https://summit.sifted.eu/speakers/laura-modiano
-- https://www.panathenea.org/panathenea-2025/speakers/laura-modiano/
-- https://www.linkedin.com/posts/laura-modiano_solutions-architect-startups-openai-activity-7288163683510140928-bp-R
+## Sources (Resolved 2026-02-05)
+- [S1] https://www.panathenea.org/panathenea-2025/speakers/laura-modiano/
+- [S2] https://slush.org/program/laura-modiano
+- [S3] https://tech.eu/2025/06/25/some-of-the-best-ai-solutions-are-coming-from-europe-says-openai-emeas-head-of-startups/
 
 ## Confidence
-High (multiple public sources consistently identify her OpenAI startups role).
-
+High. Multiple independent role references are consistent.
 
 ## Decision Tree (Mermaid)
 ```mermaid

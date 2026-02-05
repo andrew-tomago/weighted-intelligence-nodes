@@ -4,34 +4,32 @@ tags:
   - first-round
 judge_round: first_round
 last_researched: '2026-02-05'
-research_confidence: high
 last_verified: '2026-02-05'
-verification_basis: public-signals-only
+verification_basis: cited-public-sources
+research_confidence: high
+identity_risk: low
 ---
 # Charlie Guo
 
-## Snapshot
-- Current role: Developer Experience at OpenAI.
-- Public work: Author of the "Artificial Ignorance" newsletter; writes technical content for builders.
-- Focus area: Documentation, guides, tutorials, and practical AI-builder enablement.
+## Verified Facts (Cited)
+- In "On Joining OpenAI," Charlie Guo states he joined OpenAI's Developer Experience team and describes work on docs, guides, tutorials, and developer enablement. [S1]
+- Muck Rack profile metadata aligns with this positioning and lists "Developer Experience @OpenAI" and "Author of Artificial Ignorance." [S2]
 
-## Judging Lens (Likely)
-- Clarity and teachability of your product for developers.
-- Documentation quality, onboarding flow, and practical adoption friction.
-- How quickly an external developer can get meaningful outcomes.
+## Inferred Judging Lens (Inference)
+- Likely to prioritize product teachability, onboarding clarity, and developer adoption friction. [S1][S2]
+- Likely to value clear quickstart narratives and practical documentation quality. [S1]
 
-## Practical Pitch Strategy
-- Pair your demo with a concise "quickstart" narrative.
-- Make architecture decisions legible to outside builders.
-- Highlight how your tool shortens time-to-productivity for real dev teams.
+## Pitch Guidance
+- Lead with fast time-to-first-value for developers.
+- Show onboarding in steps that a new external builder can follow.
+- Keep architecture explanation concise and implementation-oriented.
 
-## Source Links
-- https://www.ignorance.ai/p/on-joining-openai
-- https://muckrack.com/charlie-guo
+## Sources (Resolved 2026-02-05)
+- [S1] https://www.ignorance.ai/p/on-joining-openai
+- [S2] https://muckrack.com/charlie-guo
 
 ## Confidence
-High (first-person statement of OpenAI role and consistent external profile corroboration).
-
+High. Primary self-authored source plus consistent public profile corroboration.
 
 ## Decision Tree (Mermaid)
 ```mermaid

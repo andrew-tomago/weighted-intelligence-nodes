@@ -4,34 +4,34 @@ tags:
   - final-round
 judge_round: final_round
 last_researched: '2026-02-05'
-research_confidence: high
 last_verified: '2026-02-05'
-verification_basis: public-signals-only
+verification_basis: cited-public-sources
+research_confidence: high
+identity_risk: low
 ---
 # Greg Brockman
 
-## Snapshot
-- Current role: President and Co-founder of OpenAI.
-- Public scope: company strategy, product direction, and frontier model deployment.
-- Historical context: long-term leadership in OpenAI’s technical and organizational trajectory.
+## Verified Facts (Cited)
+- OpenAI's leadership update names Greg Brockman as President and Co-founder of OpenAI. [S1]
+- OpenAI's Broadcom collaboration announcement quotes him as "OpenAI co-founder and President Greg Brockman." [S2]
+- OpenAI's DevDay 2025 announcement lists Greg Brockman (President) among featured speakers. [S3]
 
-## Judging Lens (Likely)
-- Strategic importance and long-term defensibility of what you are building.
-- Execution quality: ability to deliver under ambiguity and complexity.
-- Potential for outsized real-world impact with advanced AI capabilities.
+## Inferred Judging Lens (Inference)
+- Likely to focus on strategic importance, execution strength, and long-term product/company durability. [S1][S2][S3]
+- Likely to value clear paths from prototype to scaled, reliable product impact. [S2][S3]
 
-## Practical Pitch Strategy
-- Lead with vision + concrete traction (why this matters now and at scale).
-- Show a clear path from prototype to durable product/company.
-- Be concise about execution plan, risks, and differentiated capability.
+## Pitch Guidance
+- Lead with high-impact problem framing and durable strategic wedge.
+- Show credible scale plan, execution milestones, and key risks.
+- Keep claims concise and evidence-backed.
 
-## Source Links
-- https://openai.com/index/sharing-the-safety-systems-behind-gpt-4/
-- https://openai.com/index/openai-podcast-episode-6-with-greg-brockman-and-tibo-sottiaux/
+## Sources (Resolved 2026-02-05)
+- [S1] https://openai.com/blog/leadership-team-update/
+- [S2] https://openai.com/index/openai-and-broadcom-announce-strategic-collaboration/
+- [S3] https://openai.com/blog/announcing-devday-2025/
 
 ## Confidence
-High (first-party OpenAI sources and long-standing public leadership profile).
-
+High. Multiple first-party sources consistently identify role and scope.
 
 ## Decision Tree (Mermaid)
 ```mermaid
