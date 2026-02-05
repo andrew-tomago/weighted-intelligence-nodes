@@ -1,0 +1,5 @@
+interface:
+  display_name: "WIN Evaluate Content"
+  short_description: "Score drafts with committee personas"
+  default_prompt: "Use $weighted-intelligence-nodes-evaluate-content to score message variants with committee experts."
+

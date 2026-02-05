@@ -1,13 +1,20 @@
 ---
 name: weighted-intelligence-nodes-committee
-description: Validate ideas with a weighted-intelligence-nodes expert panel.
+description: Run a weighted-intelligence-nodes audience committee workflow to profile target personas, evaluate draft content, and synthesize consensus feedback. Use when users ask to test messaging or MVP ideas, compare content variants, tune committee rubrics/weights, or generate rewrite priorities from committee scoring.
 ---
 
 # Weighted Intelligence Nodes Committee
 
 ## Overview
 
-Use this skill to execute a fast MoE-style audience feedback loop for hackathon or MVP contexts.
+Execute the end-to-end committee pipeline for hackathon and MVP messaging validation.
+
+Use this orchestration skill when the user wants full-loop output (`profiles.json`, `committee_matrix.json`, and `summary.md`).
+
+For single-stage tasks, prefer focused skills:
+- `weighted-intelligence-nodes-profile-targets`
+- `weighted-intelligence-nodes-evaluate-content`
+- `weighted-intelligence-nodes-synthesize-summary`
 
 ## Workflow
 
@@ -21,14 +28,7 @@ Use this skill to execute a fast MoE-style audience feedback loop for hackathon 
 Run full pipeline:
 
 ```bash
-cd /Users/tomago/andrew-tomago/public/weighted-intelligence-nodes
-cp data/input/targets.json data/input/targets.local.json
-cp data/input/content.json data/input/content.local.json
-python3 scripts/mvp_committee.py run \
-  --targets data/input/targets.local.json \
-  --content data/input/content.local.json \
-  --committee config/committee.json \
-  --outdir data/output
+scripts/run_committee.sh
 ```
 
 Use the Laura evidence-rich example as input:
@@ -41,10 +41,19 @@ cp examples/targets.laura-modiano.example.json data/input/targets.local.json
 Run staged pipeline:
 
 ```bash
-cd /Users/tomago/andrew-tomago/public/weighted-intelligence-nodes
-python3 scripts/mvp_committee.py profile --targets data/input/targets.local.json --out data/output/profiles.json
-python3 scripts/mvp_committee.py evaluate --profiles data/output/profiles.json --content data/input/content.local.json --committee config/committee.json --out data/output/committee_matrix.json
-python3 scripts/mvp_committee.py synthesize --matrix data/output/committee_matrix.json --out data/output/summary.md
+python3 ../../../scripts/mvp_committee.py profile \
+  --targets ../../../data/input/targets.local.json \
+  --out ../../../data/output/profiles.json
+
+python3 ../../../scripts/mvp_committee.py evaluate \
+  --profiles ../../../data/output/profiles.json \
+  --content ../../../data/input/content.local.json \
+  --committee ../../../config/committee.json \
+  --out ../../../data/output/committee_matrix.json
+
+python3 ../../../scripts/mvp_committee.py synthesize \
+  --matrix ../../../data/output/committee_matrix.json \
+  --out ../../../data/output/summary.md
 ```
 
 ## Tuning Rules
@@ -61,6 +70,7 @@ python3 scripts/mvp_committee.py synthesize --matrix data/output/committee_matri
 - Keep analysis focused on content quality and audience-fit signals.
 - Stick to observable public work and stated preferences only.
 - Keep user-specific input in `data/input/*.local.json` (gitignored).
+- Keep all file paths repository-relative or skill-relative; avoid host-specific absolute paths.
 
 ## References
 

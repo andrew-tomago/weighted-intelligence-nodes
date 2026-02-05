@@ -1,0 +1,1 @@
+skills/public/weighted-intelligence-nodes-committee/SKILL.md

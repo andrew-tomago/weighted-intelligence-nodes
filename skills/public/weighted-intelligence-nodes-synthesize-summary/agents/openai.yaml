@@ -1,0 +1,5 @@
+interface:
+  display_name: "WIN Synthesize Summary"
+  short_description: "Convert matrix output into summary markdown"
+  default_prompt: "Use $weighted-intelligence-nodes-synthesize-summary to produce a ranked committee summary."
+

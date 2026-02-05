@@ -1,0 +1,5 @@
+interface:
+  display_name: "WIN Profile Targets"
+  short_description: "Generate audience profiles from public signals"
+  default_prompt: "Use $weighted-intelligence-nodes-profile-targets to build target profiles before committee scoring."
+
