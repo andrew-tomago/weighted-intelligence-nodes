@@ -1,6 +1,6 @@
 <!--
 Created: 2026-02-05
-Updated: 2026-02-05
+Updated: 2026-02-06
 Created_by:
   Github Username: andrew-tomago
   Agent: Codex
@@ -54,7 +54,7 @@ bash skills/public/win-committee/scripts/run_committee.sh \
 | --- | --- |
 | `data/input/targets.json` | `targets[].id`, `targets[].public_data` |
 | `data/input/content.json` | `content[].id`, `content[].title`, `content[].body` |
-| `config/committee.json` | `experts[].id`, `experts[].weight`, `rubric_weights` |
+| `config/committee.json` | `experts[].id`, `experts[].weight`, `rubric_weights` (`judging_criteria` optional) |
 
 Full schema examples live in `skills/public/win-committee/references/data-contracts.md`.
 
@@ -70,6 +70,11 @@ cp examples/targets.laura-modiano.example.json data/input/targets.local.json
 
 Read [How It Works (Cited)](docs/2026-02-05_how-it-works.md) for stage flow, scoring logic, and source citations.
 Read [Primitive Skills Plan](docs/2026-02-05_primitive-skills-plan.md) for roadmap and missing primitives.
+
+`committee_matrix.json` now includes persona-aware judging output per expert:
+- `criteria_scores` (criterion-level synthesis mapped to rubric metrics)
+- `rationale` (empathetic judge narrative)
+- `lens_metric_weights` and `focus_alignment` (judge emphasis traceability)
 
 ## Safety
 

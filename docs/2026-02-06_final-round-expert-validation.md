@@ -22,27 +22,28 @@ Evaluate this idea with an equal-weight committee of five experts:
 | Targets source | `examples/targets.final-round.example.json` |
 | Experts | Greg Brockman, Tibo Sottiaux, Sonya Huang, Lenny Rachitsky, Peter Steinberger |
 | Expert weighting | Equal (`1.0` each) |
+| Judging criteria | Strategic Impact, Product Clarity, Differentiation, Operational Confidence |
 | Rubric weights | fit `0.45`, clarity `0.20`, novelty `0.20`, trust `0.15` |
 
 ## Expert Outcomes (Equal-Weight Final Round)
 
 | Expert | Score | Opinion | Top Pro | Top Con |
 | --- | ---: | --- | --- | --- |
-| Greg Brockman | 43.69 | Pass | clear and digestible framing | weak match to audience interests |
-| Tibo Sottiaux | 48.38 | Pass | clear and digestible framing | weak match to audience interests |
-| Sonya Huang | 43.69 | Pass | clear and digestible framing | weak match to audience interests |
-| Lenny Rachitsky | 43.69 | Pass | clear and digestible framing | weak match to audience interests |
-| Peter Steinberger | 43.69 | Pass | clear and digestible framing | weak match to audience interests |
+| Greg Brockman | 38.47 | Pass | profile evidence shows strong bias toward deployment, strategy | pitch does not explicitly answer my core lens (deployment) |
+| Tibo Sottiaux | 44.86 | Pass | Product Clarity suggests the framing is direct and understandable | content still misses my operating vocabulary (reliability, latency, guardrails) |
+| Sonya Huang | 35.77 | Pass | profile evidence shows strong bias toward market | pitch does not explicitly answer my core lens (market) |
+| Lenny Rachitsky | 32.34 | Pass | profile evidence shows strong bias toward growth, retention | pitch does not explicitly answer my core lens (growth) |
+| Peter Steinberger | 45.07 | Pass | profile evidence shows strong bias toward architecture, maintainability | pitch does not explicitly answer my core lens (architecture) |
 
 ## Aggregate Verdict
 
 | Metric | Result |
 | --- | --- |
-| Equal-weight average score | **44.63 / 100** |
+| Equal-weight average score | **39.30 / 100** |
 | Vote split | **5 Pass / 0 Iterate / 0 Ship** |
 | Consensus | **Unanimous Pass** |
 
-Interpretation: the concept is understandable, but this framing lacks evidence, concrete use-case definition, and trust signals.
+Interpretation: the concept is understandable, but expert-specific lenses now highlight distinct failure modes by judge, instead of generic duplicate feedback.
 
 ## What Would Likely Flip the Vote
 

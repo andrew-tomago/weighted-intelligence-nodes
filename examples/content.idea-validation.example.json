@@ -3,7 +3,7 @@
     {
       "id": "idea-1",
       "title": "Codex Skill for Multi-Expert Idea Validation",
-      "body": "I want to develop a means of validating ideas against a mixture of experts. What if I were to author a Codex skill, specifying the idea and the set of judges evaluating it? Is this a good idea?"
+      "body": "I want to develop a means of validating ideas against a mixture of experts. What if I were to author a Codex skill, specifying the idea & the set of judges evaluating it? Is this a good idea?"
     }
   ]
 }

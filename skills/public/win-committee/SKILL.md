@@ -61,8 +61,10 @@ python3 ../../../scripts/mvp_committee.py synthesize \
 
 - Add or remove committee experts in `config/committee.json`.
 - Adjust score emphasis via `rubric_weights`.
+- Define `judging_criteria` labels/descriptions in judge language to improve persona realism.
 - Keep weights normalized enough to avoid one expert dominating output.
 - Add domain-specific focus keywords per expert to reflect committee specialization.
+- Check `committee_matrix.json` `rationale` for empathy and specificity before sharing summary.
 
 ## Guardrails
 

@@ -1,6 +1,6 @@
 <!--
 Created: 2026-02-05
-Updated: 2026-02-05
+Updated: 2026-02-06
 Created_by:
   Github Username: andrew-tomago
   Agent: Codex
@@ -48,6 +48,15 @@ Use `*.local.json` filenames for real user data (for example, `targets.local.jso
 ```json
 {
   "committee_name": "string",
+  "judging_criteria": [
+    {
+      "id": "string",
+      "label": "string",
+      "weight": 0.25,
+      "mapped_metric": "fit|clarity|novelty|trust",
+      "description": "string"
+    }
+  ],
   "rubric_weights": {
     "fit": 0.45,
     "clarity": 0.2,
@@ -65,8 +74,21 @@ Use `*.local.json` filenames for real user data (for example, `targets.local.jso
 }
 ```
 
+`judging_criteria` is optional. If omitted, criteria are derived from `rubric_weights`.
+
 ## Output Files
 
 - `profiles.json`
 - `committee_matrix.json`
 - `summary.md`
+
+## `committee_matrix.json` Expert Feedback Shape
+
+Each `matrix[].expert_feedback[]` row includes:
+- `expert_id`, `persona`, `weight`, `opinion`, `overall`
+- `subscores`
+- `lens_metric_weights`
+- `focus_bonus`, `focus_alignment`
+- `criteria_scores`
+- `rationale`
+- `pros`, `cons`

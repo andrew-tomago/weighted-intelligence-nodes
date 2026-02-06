@@ -1,5 +1,35 @@
 {
   "committee_name": "final-round-equal-weight",
+  "judging_criteria": [
+    {
+      "id": "strategic-impact",
+      "label": "Strategic Impact",
+      "weight": 0.25,
+      "mapped_metric": "fit",
+      "description": "Evaluate whether the proposal has a clear wedge, target user, and scale path."
+    },
+    {
+      "id": "product-clarity",
+      "label": "Product Clarity",
+      "weight": 0.25,
+      "mapped_metric": "clarity",
+      "description": "Evaluate if the Codex skill workflow is concrete, legible, and easy to execute."
+    },
+    {
+      "id": "differentiation",
+      "label": "Differentiation",
+      "weight": 0.25,
+      "mapped_metric": "novelty",
+      "description": "Evaluate how distinct this approach is from generic feedback or voting tools."
+    },
+    {
+      "id": "operational-confidence",
+      "label": "Operational Confidence",
+      "weight": 0.25,
+      "mapped_metric": "trust",
+      "description": "Evaluate evidence, guardrails, and reliability for real decision support."
+    }
+  ],
   "rubric_weights": {
     "fit": 0.45,
     "clarity": 0.2,

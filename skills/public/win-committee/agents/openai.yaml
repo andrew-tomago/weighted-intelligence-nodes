@@ -1,4 +1,4 @@
 interface:
   display_name: "WIN Committee"
   short_description: "Run full committee workflow"
-  default_prompt: "Use $win-committee to profile targets, score drafts, and synthesize consensus feedback."
+  default_prompt: "Use $win-committee to profile targets, score drafts, and synthesize consensus + dissent. For each judge, impersonate their decision lens from profile signals and produce empathetic, concrete pros/cons tied to judging criteria."
