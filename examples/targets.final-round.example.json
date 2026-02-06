@@ -1,0 +1,84 @@
+{
+  "targets": [
+    {
+      "id": "greg-brockman",
+      "name": "Greg Brockman",
+      "public_data": {
+        "bio": "President and Co-founder of OpenAI focused on strategy, product direction, and frontier model deployment.",
+        "posts": [
+          "Prioritize long-term defensibility and execution quality under ambiguity.",
+          "Show a concrete path from prototype to durable product with responsible risk handling.",
+          "Lead with strategic importance and measurable impact at scale."
+        ],
+        "links": [
+          "https://openai.com/index/sharing-the-safety-systems-behind-gpt-4/",
+          "https://openai.com/index/openai-podcast-episode-6-with-greg-brockman-and-tibo-sottiaux/"
+        ]
+      }
+    },
+    {
+      "id": "tibo-sottiaux",
+      "name": "Tibo Sottiaux",
+      "public_data": {
+        "bio": "Codex engineering lead profile associated with end-to-end coding agent productization.",
+        "posts": [
+          "Make engineering tradeoffs explicit across model quality, latency, reliability, and UX.",
+          "Ship with guardrails, telemetry, and iterative rollout discipline.",
+          "Prove production readiness with operational evidence, not just demos."
+        ],
+        "links": [
+          "https://openai.com/index/openai-podcast-episode-6-with-greg-brockman-and-tibo-sottiaux/",
+          "https://openai.simplecast.com/episodes/openai-podcast-episode-6-with-greg-brockman-and-tibo-sottiaux"
+        ]
+      }
+    },
+    {
+      "id": "sonya-huang",
+      "name": "Sonya Huang",
+      "public_data": {
+        "bio": "Sequoia partner focused on AI investing, market timing, and defensible company building.",
+        "posts": [
+          "Explain market urgency and why the initial wedge wins now.",
+          "Demonstrate user pull, distribution credibility, and expansion path.",
+          "Show durable moat through data, workflow lock-in, and execution speed."
+        ],
+        "links": [
+          "https://www.sequoiacap.com/people/sonya-huang/",
+          "https://www.forbes.com/sites/kenrickcai/2023/04/17/sequoia-sonya-huang-generative-ai-hot-list/"
+        ]
+      }
+    },
+    {
+      "id": "lenny-rachitsky",
+      "name": "Lenny Rachitsky",
+      "public_data": {
+        "bio": "Product strategy operator and writer focused on practical growth, retention, and execution quality.",
+        "posts": [
+          "Tell a crisp user story with measurable behavior change.",
+          "Show retention and repeat usage, not only top-of-funnel interest.",
+          "Keep roadmap decisions disciplined with explicit tradeoffs."
+        ],
+        "links": [
+          "https://www.lennysnewsletter.com/",
+          "https://www.lennyrachitsky.com/about"
+        ]
+      }
+    },
+    {
+      "id": "peter-steinberger",
+      "name": "Peter Steinberger",
+      "public_data": {
+        "bio": "Software engineer and entrepreneur focused on architecture quality, maintainability, and developer tooling.",
+        "posts": [
+          "Demonstrate engineering craftsmanship and robust architecture choices.",
+          "Prove reliability and performance with concrete implementation evidence.",
+          "Make developer ergonomics and maintainability core product values."
+        ],
+        "links": [
+          "https://steipete.me/",
+          "https://github.com/steipete"
+        ]
+      }
+    }
+  ]
+}

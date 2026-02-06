@@ -1,0 +1,41 @@
+{
+  "committee_name": "final-round-equal-weight",
+  "rubric_weights": {
+    "fit": 0.45,
+    "clarity": 0.2,
+    "novelty": 0.2,
+    "trust": 0.15
+  },
+  "experts": [
+    {
+      "id": "greg-brockman",
+      "persona": "Greg Brockman",
+      "focus_keywords": ["strategy", "defensibility", "deployment", "scale", "safety"],
+      "weight": 1.0
+    },
+    {
+      "id": "tibo-sottiaux",
+      "persona": "Tibo Sottiaux",
+      "focus_keywords": ["reliability", "latency", "guardrails", "telemetry", "rollout"],
+      "weight": 1.0
+    },
+    {
+      "id": "sonya-huang",
+      "persona": "Sonya Huang",
+      "focus_keywords": ["market", "wedge", "distribution", "moat", "workflow"],
+      "weight": 1.0
+    },
+    {
+      "id": "lenny-rachitsky",
+      "persona": "Lenny Rachitsky",
+      "focus_keywords": ["user", "retention", "growth", "behavior", "roadmap"],
+      "weight": 1.0
+    },
+    {
+      "id": "peter-steinberger",
+      "persona": "Peter Steinberger",
+      "focus_keywords": ["architecture", "maintainability", "performance", "tooling", "ergonomics"],
+      "weight": 1.0
+    }
+  ]
+}
